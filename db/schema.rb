@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_07_27_205213) do
   create_table "quotes", force: :cascade do |t|
     t.string "name"
     t.string "website"
-    t.string "decription"
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

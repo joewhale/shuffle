@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: shuffle_production
-  # username: shuffle
-  # password: <%= ENV['SHUFFLE_DATABASE_PASSWORD'] %>
+  username: shuffle
+  password: <%= ENV['SHUFFLE_DATABASE_PASSWORD'] %>
